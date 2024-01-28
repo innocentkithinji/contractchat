@@ -4,7 +4,6 @@ from langchain.memory import ConversationBufferWindowMemory
 from langchain_community.chat_models import ChatOpenAI
 
 load_dotenv()
-# os.environ["OPENAI_API_KEY"] = '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'
 
 import streamlit as st
 from PyPDF2 import PdfReader
