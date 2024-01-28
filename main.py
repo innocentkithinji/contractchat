@@ -1,9 +1,5 @@
-import os
-from dotenv import load_dotenv
 from langchain.memory import ConversationBufferWindowMemory
 from langchain_community.chat_models import ChatOpenAI
-
-load_dotenv()
 
 import streamlit as st
 from PyPDF2 import PdfReader
